@@ -42,7 +42,7 @@ pipeline {
   
     post {
         success {
-            mail to: "subasinghethisum.com",
+            mail to: "subasinghethisum@gmail.com",
                  subject: "Pipeline Success - Build # ${currentBuild.number}",
                  body: "The pipeline has successfully completed all stages. Build logs are attached."
         }
